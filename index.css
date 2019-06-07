@@ -1,18 +1,4 @@
 
-.topNav
-{
-/*    float: right;*/
-position: absolute;
-top: 20px;
-right: 20px;
-margin-top: 20px;
-}
-
-.topNav li {
-    display:block;
-    display: inline;
-    margin-right: 40px;
-  }
 
 .navigation{
     top:0;
@@ -24,34 +10,10 @@ margin-top: 20px;
    /* margin-right: 20px;*/
     padding-top: 40px;
     padding-bottom: 20px;
+    color:white;
+    text-align: center;
 }
 
-.myName{
-    display: inline-block;
-    color: white;
-  
-margin-left: 40px;
-}
-
-.bio{
-    color: green;
-    text-decoration: none;
-}
-
-.portfolio{
-    color: purple;
-    text-decoration: none;
-}
-
-.github{
-    color: yellow;
-    text-decoration: none;
-}
-
-.linkedin{
-    color: blue;
-    text-decoration: none;
-}
 
 footer{
     margin-top: 130px;
@@ -68,56 +30,30 @@ text-align: center;
 
 }
 
-.bioDetails{
-    display:block;
-    margin-top: 60px;
 
-}
 .contact{
   
-   /* position: absolute;
- left: 100px;*/
- display: block;
-
-    color:white;
-  
-    background-color: black;
-    padding-top:20px;
-    padding-bottom: 10px;
-}
-
-img{
-    padding: 15px;
-    border: 1px solid black;
-}
-
-.bio1,.bio2{
-    padding:0;
-    margin:0;
-    width: 100%;
-    margin-top: 25px;
-  
-}
+    /* position: absolute;
+  left: 100px;*/
+  display: block;
+ 
+     color:white;
+   
+     background-color: black;
+     padding-top:20px;
+     padding-bottom: 10px;
+ }
 
 
-li{
-    list-style:none;
-}
 
-.bioImage{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .projects{
     
     text-align: center;
 }
 
-img{
-    max-width: 60%;
-}
+
 
 .projectDescription{
     
@@ -125,3 +61,14 @@ img{
     margin-left:auto;
     margin-right:auto;
 }
+
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
